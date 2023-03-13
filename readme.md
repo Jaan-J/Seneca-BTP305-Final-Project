@@ -8,5 +8,3 @@ has used all the items in stock cannot fill any more orders. At the end of the l
 at one or more stations. The simulator lists the completed orders and those that are incomplete once the line manager has finished processing all orders.
 
 ![image](https://user-images.githubusercontent.com/35118086/149035112-4111225f-73bb-4fbc-b6c3-b395dbd40065.png)
-
-(This was taken from the official project repo https://github.com/Seneca-345305/BTP-Project)
