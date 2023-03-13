@@ -1,6 +1,6 @@
 Project Overview: 
 
-The assembly line in your solution consists of a set of workstations each of which holds a set of stock items, which are specific to the station. 
+The assembly line in this project consists of a set of workstations each of which holds a set of stock items, which are specific to the station. 
 A line manager moves customer orders along the line filling the orders at each station, as requested. Each customer order consists of a list of items 
 that need to be filled. Each station processes a queue of orders by filling the next order in the queue if that order requests the station's item and 
 that item is in stock. The line manager keeps moving the customer orders from station to station until all orders have been processed. Any station that 
