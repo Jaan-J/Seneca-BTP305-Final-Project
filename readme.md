@@ -81,7 +81,7 @@ A `CustomerOrder` object manages a single order on the assembly line and contain
 - `std::string m_name` – the name of the customer (e.g., John, Sara, etc)
 - `std::string m_product` – the name of the product being assembled (e.g., Desktop, Laptop, etc)
 - `unsigned int m_cntItem` – a count of the number of items for the customer's order
-- `Item** m_lstItem` – a dynamically allocated array of pointers. Each element of the array is a dynamically allocated object of type `Item` (see below). 
+- `Item** m_lstItem` – a dynamically allocated array of pointers. Each element of the array is a dynamically allocated object of type `Item`
 - `static size_t m_widthField` – the maximum width of a field, used for display purposes
 
 The member functions of the `CustomerOrder` class include:
@@ -103,7 +103,7 @@ The member functions of the `CustomerOrder` class include:
   - if the order contains items handled at the station, and the inventory contains at least one element, then this function subtracts 1 from the inventory and updates `Item::m_serialNumber` and `Item::m_isFilled`. Also it prints the message ` Filled NAME, PRODUCT [ITEM_NAME]`.
   - if the order contains items handled at the station, and the inventory is empty, then this function prints the message ` Unable to fill NAME, PRODUCT [ITEM_NAME]`.
   - all messages printed should be terminated by an endline
-- `void display(std::ostream& os) const` – displays the state of the current object in the format (see the sample output for details)
+- `void display(std::ostream& os) const` – displays the state of the current object in the format
   ```
   CUSTOMER_NAME - PRODUCT
   [SERIAL] ITEM_NAME - STATUS
