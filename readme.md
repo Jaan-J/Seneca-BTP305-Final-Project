@@ -1,6 +1,4 @@
 Project Overview: 
-The purpose of this term project is to put your C++ Object Oriented skills to practice by developing a simulation of an assembly line with any number of stations. 
-A line with 3 Stations is illustrated in the figure below.
 
 The assembly line in your solution consists of a set of workstations each of which holds a set of stock items, which are specific to the station. 
 A line manager moves customer orders along the line filling the orders at each station, as requested. Each customer order consists of a list of items 
